@@ -1,12 +1,13 @@
 {
   "name": "mis-clothing",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "firebase": "^9.22.2",
+    "formik": "^2.4.2",
     "node-sass": "^9.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -20,7 +21,9 @@
     "redux-persist": "^6.0.0",
     "reselect": "^4.1.8",
     "sass": "^1.62.1",
-    "web-vitals": "^2.1.4"
+    "styled-components": "^6.0.4",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.2.0"
   },
   "scripts": {
     "start": " react-scripts --openssl-legacy-provider start",
@@ -48,5 +51,8 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-private-property-in-object": "^7.22.5"
+  },
+  "engines": {
+    "node": "18.x" 
   }
 }

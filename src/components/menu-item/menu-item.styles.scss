@@ -1,3 +1,4 @@
+
 .menu-item {
     min-width: 30%;
     height: 240px;
@@ -8,6 +9,7 @@
     border: 1px solid black;
     margin: 0 7.5px 15px;
     overflow: hidden;
+    
     
 
     &:hover {
@@ -35,6 +37,7 @@
     &:last-child {
       margin-left: 7.5px;
     }
+    
 
     .background-image{
       width: 100%;
@@ -56,6 +59,7 @@
       background-color: white;
       opacity: 0.7;
       position: absolute;
+      
   
       .title {
         font-weight: bold;
@@ -68,5 +72,12 @@
         font-weight: lighter;
         font-size: 16px;
       }
+      @media screen and (max-width: 600px) {
+        .menu-container {
+          flex-direction: column;
+          
+        }
     }
+   
   }
+}

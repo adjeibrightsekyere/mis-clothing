@@ -1,10 +1,16 @@
+
+
 .checkout-page {
-    width: 55%;
+    width: 70%;
     min-height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 50px auto 0;
+    margin-top: 30px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
   
     .checkout-header {
       width: 100%;
@@ -12,6 +18,8 @@
       display: flex;
       justify-content: space-between;
       border-bottom: 1px solid darkgrey;
+      margin-bottom: 10px;
+
   
       .header-block {
         text-transform: capitalize;
@@ -27,19 +35,50 @@
       margin-top: 30px;
       margin-left: auto;
       font-size: 36px;
+      font-weight: bold;
     }
 
     button {
       
         margin-left: auto;
         margin-top: 50px;
+         background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #45a049;
     }
+  }
+
+    
 
     .test-warning {
       text-align: center;
       margin-top: 40px;
       font-size: 24px;
       color: red;
+      font-style: italic;
     }
+    
   }
+  body {
+    height: 100%;
+    margin: 0;
+    padding:0;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #f8dcd1, #a8c0ff);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+  }  
   
