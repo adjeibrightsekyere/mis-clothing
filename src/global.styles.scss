@@ -1,0 +1,10 @@
+$primary-color: #f6a32e; /* Light orange */
+$secondary-color: #d35d6e; /* Light pink */
+
+/* Define other common styles for the application */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, $primary-color, $secondary-color);
+}

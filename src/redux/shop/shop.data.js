@@ -62,13 +62,13 @@ const SHOP_DATA ={
             id: 10,
             name: ' Beanie Hat',
             imageUrl: 'https://rugdlife.com/cdn/shop/products/RUGDBeanie_2_e28315e7-cabc-4b0f-8103-4e38c91d18dd_1800x1800.png?v=1675357935',
-            price: 14.99
+            price: 14.9
           },
           {
             id: 11,
             name: 'Bucket Hat',
             imageUrl: 'https://favoriteusa.com/cdn/shop/products/HAT_0012_favtan_red_blkbucket_1800x1800.jpg?v=1669056611',
-            price: 19.99
+            price: 19.9
           },
           {
             id: 12,
@@ -202,7 +202,7 @@ const SHOP_DATA ={
             id: 7,
             name: 'Ferrari Jacket',
             imageUrl: 'https://i.etsystatic.com/23964418/r/il/d20e1b/3724875822/il_570xN.3724875822_7zza.jpg',
-            price: 63.88
+            price: 63.8
           },
           {
             id: 8,

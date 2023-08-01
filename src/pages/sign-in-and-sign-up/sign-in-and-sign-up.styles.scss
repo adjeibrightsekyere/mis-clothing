@@ -1,6 +1,39 @@
 .sign-in-and-sign-up {
     width: 850px;
-    display: flex;
-    justify-content: space-between;
     margin: 30px auto;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+
+.form-toggle {
+    align-self: flex-start; /* Align the button to the left */
+    margin-top: 30px;
+   
+    button {
+        background-color: #4285f4;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.2s ease;
+  
+        &:hover {
+          background-color: #3367d6;
+        }
+  
+        &:focus {
+          outline: none;
+        }
+      }
+    }}
+
+.form-container {
+    width: 100%;
+    
+  }
+

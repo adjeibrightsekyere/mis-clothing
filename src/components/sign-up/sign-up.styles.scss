@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
 .sign-up {
     margin-top: 70px;
     display: flex;
@@ -6,10 +10,14 @@
     border: 2px solid #ccc;
     padding: 20px;
     border-radius: 10px;
-    background-color: #f5f5f5;
+    background-color: #fde2e6;
     
     background-size: cover;
     background-position: center;
+    
+        font-family: 'Roboto', sans-serif; /* Apply the 'Roboto' font to the whole SignUp component */
+      
+      
 
 
     .title{
